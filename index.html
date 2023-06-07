@@ -111,15 +111,49 @@
         </table>
       </section>
       <section class="pt-6">
-        <h1 class="title is-3 has-text-centered">
+        <h1 class="title is-3 has-text-centered pb-3">
           Want to get in touch with me? Let's start a conversation. 
         </h1>
       </section>
-      <section class="has-text-centered">
-        <form action="https://formsubmit.co/7093ad07e97b2a23ddee2898e7e03e6d" method="POST">
-          <label for="fname">First Name:</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-        </form>
-      </section>
+      <div class="container">
+        <div class="columns is-justify-content-center">
+          <div class="column is-6-tablet is-5-desktop is-4-widescreen is-3-fullhd">
+            <form action="https://formsubmit.co/7093ad07e97b2a23ddee2898e7e03e6d" method="POST" class="box p-5">
+              <label class="is-block mb-4">
+                <span class="is-block mb-2">Your name:</span>
+                <input
+                  name="name"
+                  type="text"
+                  class="input"
+                  placeholder="Your name..."
+                />
+              </label>
+              <label class="is-block mb-4">
+                <span class="is-block mb-2">Email address:</span>
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  class="input"
+                  placeholder="Your email..."
+                />
+              </label>
+              <label class="is-block mb-4">
+                <span class="is-block mb-2">Message</span>
+                <textarea
+                  name="message"
+                  class="textarea"
+                  rows="3"
+                  placeholder="Tell me what you're thinking about..."
+                ></textarea>
+              </label>
+              <div class="has-text-centered">
+                <button class="button button is-primary" type="submit">Submit</button>
+              </div>
+            </form> 
+          </div>
+        </div>
+      </div>>
+      </div>
   </body>
 </html>
