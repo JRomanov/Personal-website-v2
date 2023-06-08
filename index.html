@@ -17,9 +17,9 @@
         </div>
         <div class="navbar-menu" id="navLinks">
           <div class="navbar-end">
-            <a class="navbar-item">About Me</a>
-            <a class="navbar-item">Contact Me</a>
-            <a class="navbar-item">Projects</a>
+            <a class="navbar-item" id="aboutMeNavbar" onClick="document.getElementById('About').scrollIntoView();">About Me</a>
+            <a class="navbar-item" onClick="document.getElementById('contact').scrollIntoView();">Contact Me</a>
+            <a class="navbar-item" onClick="document.getElementById('myProjects').scrollIntoView();">Projects</a>
           </div>
         </div>
         <a class="navbar-burger" id="burger">
@@ -50,7 +50,7 @@
         </h2>
       </section>
       <section class="mx-auto">
-        <h3 class="title is-3 has-text-centered pt-6 is-underlined">Projects</h3>
+        <h3 class="title is-3 has-text-centered pt-6 is-underlined" id="myProjects">Projects</h3>
       </section>
       <section class="p-1 pb-6">
         <table class="table mx-auto">
@@ -111,7 +111,7 @@
         </table>
       </section>
       <section class="pt-6">
-        <h1 class="title is-3 has-text-centered pb-3">
+        <h1 class="title is-3 has-text-centered pb-3" id="contact">
           Want to get in touch with me? Let's start a conversation. 
         </h1>
       </section>
@@ -156,8 +156,8 @@
       </div>
       <div class="container pt-6">
         <div class="has-text-centered">
-          <a href="https://www.linkedin.com/in/james-romanov/"><img src="/images/Linkedin logo.png" alt="pic"></a>
-          <a href="www.GitHub.com/JRomanov"><img src="/images/github pic 2.png" alt="pic2"></a>
+          <a href="https://www.linkedin.com/in/james-romanov/"><img src="/images/Linkedin logo.png" alt="pic" class="mr-2"></a>
+          <a href="https://github.com/JRomanov"><img src="/images/github pic 2.png" alt="pic2"></a>
         </div>
       </div>
   </body>
