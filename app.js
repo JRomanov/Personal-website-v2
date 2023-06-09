@@ -1,6 +1,8 @@
 // for mobile burger menu
 document.addEventListener('DOMContentLoaded', function () {
 
+AOS.init();
+
 const burgerIcon = document.querySelector("#burger");
 //const navbarMenu = document.querySelector("#navLinks");
 const aboutMe = document.querySelector("#About");
