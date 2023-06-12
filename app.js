@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
 AOS.init();
 
 const burgerIcon = document.querySelector("#burger");
-//const navbarMenu = document.querySelector("#navLinks");
-const aboutMe = document.querySelector("#About");
+const navbarMenu = document.querySelector("#navLinks");
+//const aboutMe = document.querySelector("#About");
 const aboutMeNav = document.querySelector("#aboutMeNavbar")
 
 burgerIcon.addEventListener("click", () => {
-    burgerIcon.classList.toggle("is-active")
+    navbarMenu.classList.toggle("is-active")
 });
 
 /* aboutMeNav.addEventListener("click", () => {
